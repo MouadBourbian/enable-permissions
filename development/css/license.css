@@ -1,0 +1,52 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 12px;
+  gap: 20px;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation-container a {
+  text-decoration: none;
+  color: #555;
+  font-size: 18px;
+}
+
+.navigation-container a:hover {
+  color: #000;
+}
+
+.navigation-container a.dark-mode {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 18px;
+}
+
+.navigation-container a.dark-mode:hover {
+  color: #fff;
+}
+
+:root {
+  color-scheme: light;
+}
+
+:root.dark-mode {
+  color-scheme: dark;
+}

@@ -1,0 +1,99 @@
+@import url(./color.css);
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 12px;
+  gap: 24px;
+}
+
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.navigation-container a {
+  text-decoration: none;
+  color: #555;
+  font-size: 15px;
+}
+
+.navigation-container a.dark-mode {
+  color: #ddd;
+}
+
+.navigation-container a:hover {
+  color: #000;
+}
+
+.navigation-container a:hover.dark-mode {
+  color: #fff;
+}
+
+.navigation-container button {
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+  color: #555;
+  font-size: 15px;
+}
+
+.navigation-container button:hover {
+  color: #000;
+}
+
+.navigation-container button.dark-mode {
+  color: #ddd;
+}
+
+.navigation-container button:hover.dark-mode {
+  color: #fff;
+}
+
+.flex-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  width: 100%;
+}
+
+.func-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: #fff;
+  width: 35px;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 100%;
+  color: #fff;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  border-radius: 4px;
+  user-select: none;
+  transition: background-color 0.7s;
+}
+
+.btn:hover {
+  background-color: var(--primary-color-hover);
+}

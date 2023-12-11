@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #337ab7;
+  --primary-color-hover: #286090;
+  --success-color: #5cb85c;
+  --success-color-hover: #449d44;
+  --error-color: #d9534f;
+  --error-color-hover: #c9302c;
+}

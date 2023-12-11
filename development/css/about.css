@@ -1,0 +1,150 @@
+@import url(./color.css);
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  padding: 12px;
+  gap: 30px;
+}
+
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.navigation-container h1 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.navigation-container a {
+  text-decoration: none;
+  color: #555;
+  font-size: 18px;
+  user-select: none;
+}
+
+.navigation-container a:hover {
+  color: #000;
+}
+
+.navigation-container a.dark-mode {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 18px;
+  user-select: none;
+}
+
+.navigation-container a:hover.dark-mode {
+  color: #fff;
+}
+
+.flex-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.update-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.fa-github {
+  background-color: #222;
+  color: #fff;
+  padding: 6px 8px;
+  border-right: 0.5px solid #ddd;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.fa-github.dark-mode {
+  border: 0.5px solid #ddd;
+}
+
+.update-item a {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-left: 0.5px solid #ddd;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  user-select: none;
+}
+
+.update-item a:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.update-item a.dark-mode {
+  border: 0.5px solid #ddd;
+  user-select: none;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.flex-item:nth-child(3) a {
+  background-color: #ccc;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1.5px solid #000;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  user-select: none;
+}
+
+.flex-item:nth-child(3) a:hover {
+  background-color: #bbb;
+}
+
+.flex-item:nth-child(3) a.dark-mode {
+  background-color: #999;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1.5px solid #000;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  user-select: none;
+}
+
+.flex-item:nth-child(3) a.dark-mode:hover {
+  background-color: #888;
+}
+
+.flex-item img {
+  width: 100px;
+  height: 100px;
+  border: none;
+  user-select: none;
+}
+
+.flex-item h1 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.flex-item p {
+  margin: 0;
+  font-size: 13px;
+}
