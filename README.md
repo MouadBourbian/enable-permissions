@@ -1,5 +1,13 @@
 # Enable Permissions
 
+[![GitHub release](https://img.shields.io/badge/release-latest-brightgreen)](https://github.com/MouadBourbian/enable-permissions/releases/latest) &nbsp; [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+<br>
+
+<img src="./images/logo/enable_permissions_logo.png" alt="logo" width="128" height="128">
+
+<br>
+
 ## Description
 
 This Chrome extension allows users to easily enable specific permissions on web pages, providing more control over the browsing experience.
