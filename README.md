@@ -27,7 +27,7 @@ This extension has been tested on the following browsers:
 | --------------------- | ---------------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------- |
 | **Name**              | [Google Chrome](https://www.google.com/intl/en_us/chrome/) | [Opera](https://www.opera.com/)                   | [Microsoft Edge](https://www.microsoft.com/en-us/edge/download?form=MA13FJ) | [Brave](https://brave.com/)                       |
 | **Version**           | 120.0                                                      | 105.0                                             | 118.0                                                                       | 1.61.100                                          |
-| **Date** [DD-MM-YYYY] | 05.12.2023                                                 | 05.12.2023                                        | 06.11.2023                                                                  | 12.12.2023                                        |
+| **Date** [DD-MM-YYYY] | 05.12.2023                                                 | 05.12.2023                                        | 06.11.2023                                                                  | 12.11.2023                                        |
 
 ### FAQ
 
