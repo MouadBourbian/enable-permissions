@@ -45,6 +45,12 @@ A: The extension currently supports enabling the following permissions:
    - Allowing right-click context menu.
    - Enabling text selection.
 
+## Limitations
+
+This extension may not work on all websites, especially those that use advanced techniques. 
+
+Furthermore, I do not guarantee that the Chrome extension complies with safety standards.
+
 ## LICENSE
 
 This extension is released under the MIT License. See [LICENSE](LICENSE) for details.
