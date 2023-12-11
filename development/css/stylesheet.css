@@ -1,0 +1,17 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  background-color: #eee;
+  width: 255px;
+}
+
+body.dark-mode {
+  background-color: #444;
+  color: #f1f1f1;
+}
