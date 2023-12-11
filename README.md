@@ -31,7 +31,7 @@ This extension has been tested on the following browsers:
 
 ### FAQ
 
-**Q: What permissions can I enable with this extension?**
+**Q: What permissions can I enable with this extension?** <br>
 A: The extension currently supports enabling the following permissions:
    - Allowing copy and paste.
    - Allowing right-click context menu.
